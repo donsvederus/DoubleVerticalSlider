@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 100vh;
 }
 
@@ -24,6 +24,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  transition: transform 0.5s ease-in-out;
 }
 
 .left-slide > div {
@@ -44,10 +45,11 @@ body {
 
 .right-slide {
   height: 100%;
-  postion: absolute;
+  position: absolute;
   top: 0;
   left: 35%;
   width: 65%;
+  transition: transform 0.5s ease-in-out;
 }
 
 .right-slide > div {
